@@ -74,6 +74,10 @@ select {
   border-right: 1px solid rgb(72, 72, 72);
 }
 
+select option {
+  color: #000;
+}
+
 .search-box {
   position: relative;
   display: inline-block;
@@ -416,5 +420,10 @@ footer .form {
 
   .footer-list {
     flex-wrap: wrap;
+  }
+
+  .search-box input {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
   }
 }
